@@ -16,3 +16,25 @@ Don't waste your time setting up an express app from scratch, just focus on busi
 - **Awesome Managed Directory Structures**
 - **Templating Engine** - [EJS](https://ejs.co/)
 - **CORS Enabled** - [Express CORS] (https://github.com/expressjs/cors)
+
+### > Getting Started
+* #### Configuring Environment
+    Install [Node.js >= 14](https://nodejs.org) and [NPM](https://npmjs.com)\
+    Install typescript globally
+    ```bash
+    npm -g i typescript
+    ```
+* #### Create New Project
+    Fork, clone, or download this project, configure the ``package.json`` for your new project.
+    ```bash
+    git clone https://github.com/irsyadulibad/express-typescript-boilerplate
+    ```
+    Then, install all dependencies
+    ```bash
+    npm install
+    ```
+* #### Serve Your App
+    Go to the project dir and start your app with
+    ```bash
+    npm run serve
+    ```
